@@ -8,6 +8,11 @@ class VirtualPetNothingApp extends Application.AppBase {
         AppBase.initialize();
     }
 
+        // triggered when a user updates the settings in GCM
+    function onSettingsChanged() {
+      Toybox.WatchUi.requestUpdate();
+    }
+
     // onStart() is called on application start up
     function onStart(state as Dictionary?) as Void {
     }

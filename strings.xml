@@ -1,0 +1,9 @@
+<strings>
+    <string id="AppName">VirtualPetNothing</string>
+  <string id="FieldTitle">Field</string>
+    <string id="FieldPrompt">Select Feild or Speed</string>
+<string id="Clean">Clean</string>
+<string id="Data">Data</string>
+<string id="Fast">Fast</string>
+<string id="Slow">Slow</string>
+</strings>
